@@ -1,0 +1,30 @@
+{
+  "name": "website01",
+  "version": "1.0.0",
+  "description": "good",
+  "main": "server.js",
+  "scripts": {
+    "start": "budo server.js:bundle.js",
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sumukh"
+  },
+  "keywords": [
+    "g"
+  ],
+  "author": "Sumukh Shet Shirodker",
+  "license": "Apache",
+  "dependencies": {
+    "budo": "^11.5.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "get-pixels": "^3.3.2",
+    "mongodb": "^3.1.8",
+    "nodemon": "^1.18.5",
+    "passport": "^0.4.0",
+    "sass": "^1.14.3",
+    "simple-peer": "^9.1.2"
+  }
+}
